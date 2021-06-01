@@ -1,9 +1,11 @@
 {
   "name": "typescript-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "start": "node .",
+    "build": "tsc",
     "dev": "nodemon --config nodemon.json src/index.ts"
   },
   "dependencies": {

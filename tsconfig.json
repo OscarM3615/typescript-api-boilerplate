@@ -9,6 +9,13 @@
     "baseUrl": "./src",
     "typeRoots": [
       "./types"
-    ]
-  }
+    ],
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
+  "exclude": ["node_modules"]
 }
