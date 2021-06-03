@@ -39,3 +39,8 @@ yarn run start
   - `express` as the rest framework.
   - `mongoose` as the ODM library.
   - `morgan` to display requests in the terminal.
+
+## Recommendations
+
+To get a clean repository history, you can type `rm -rf .git` to remove git
+information and start a new repository with `git init`.
