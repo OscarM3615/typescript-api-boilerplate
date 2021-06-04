@@ -8,6 +8,13 @@ Typescript and Nodejs.
 - Clone the git repo — `git clone
 https://github.com/OscarM3615/typescript-api-boilerplate`.
 
+- (Optional) Reset git commit history by creating a new repository:
+
+```shell
+rm -rf .git
+git init
+```
+
 - Install dependencies with `npm` or `yarn`:
 
 ```shell
@@ -39,8 +46,3 @@ yarn run start
   - `express` as the rest framework.
   - `mongoose` as the ODM library.
   - `morgan` to display requests in the terminal.
-
-## Recommendations
-
-To get a clean repository history, you can type `rm -rf .git` to remove git
-information and start a new repository with `git init`.
